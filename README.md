@@ -17,7 +17,7 @@ Note that Open Telemetry jar has already been downloaded, as of 2022-September.
 
 You must use Lein as that's how dependencies and JVM optionals (-javaagent:opentelemetry-javaagent.jar) were configured.
 
-In `src/clojure_api_otel/counter_service.clj` run the Testing `(do ...)` so it sends a few requests to local host.
+In `src/clojure_api_otel/counter_service.clj` run the `(comment (do ...))` to send a few requests to the server api.
 
 ### 3. Check in Jaeger the traces of your requests
 
